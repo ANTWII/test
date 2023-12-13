@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Fido Money Test Suite" verbose="1" parallel="classes" thread-count="5">
+    <listeners>
+
+        <listener class-name="restAssured.FidoMoneyTrial_2.RetryListener"/>
+    </listeners>
+    <test preserve-order="true" name="Fido Money Tests">
+        <classes>
+            <class name="restAssured.FidoMoneyTrial_2.FidoScore"/>
+            <class name="restAssured.FidoMoneyTrial_2.EmailVerification"/>
+        </classes>
+
+    </test>
+</suite>

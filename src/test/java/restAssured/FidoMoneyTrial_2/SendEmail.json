@@ -1,0 +1,19 @@
+{
+  "email": "{{email}}",
+  "user_data_collected": "true",
+  "business_transition_documents_state": {
+    "idempotency_key": "<string>",
+    "type": "Operating Permit",
+    "form_a_page_1": "REJECTED",
+    "form_a_page_2": "ACCEPTED",
+    "form_a_page_3": "PENDING",
+    "form_3_page_1": "ACCEPTED",
+    "form_3_page_2": "ACCEPTED",
+    "form_3_page_3": "REJECTED",
+    "form_3_page_4": "PENDING",
+    "coi": "ACCEPTED",
+    "cor": "ACCEPTED",
+    "op": "REJECTED"
+  },
+  "transition_state": "rejected"
+}

@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="48" passed="48" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-30T18:16:14 GMT" name="All Test Suite" finished-at="2023-10-30T18:16:57 GMT" duration-ms="43958">
+    <groups>
+      <group name="regression">
+        <method signature="Loan_Services.HomeScreen(java.util.Map)[pri:1, instance:restAssured.Config.Loan_Services@6973bf95]" name="HomeScreen" class="restAssured.Config.Loan_Services"/>
+        <method signature="Loan_Services.EnterPin(java.util.Map)[pri:2, instance:restAssured.Config.Loan_Services@6973bf95]" name="EnterPin" class="restAssured.Config.Loan_Services"/>
+        <method signature="Loan_Services.ConfirmPayments(java.util.Map)[pri:7, instance:restAssured.Config.Loan_Services@6973bf95]" name="ConfirmPayments" class="restAssured.Config.Loan_Services"/>
+        <method signature="AirtimeTopUp.HomeScreen_Airtime(java.util.Map)[pri:1, instance:restAssured.Config.AirtimeTopUp@27ae2fd0]" name="HomeScreen_Airtime" class="restAssured.Config.AirtimeTopUp"/>
+        <method signature="AirtimeTopUp.EnterPin_Airtime(java.util.Map)[pri:2, instance:restAssured.Config.AirtimeTopUp@27ae2fd0]" name="EnterPin_Airtime" class="restAssured.Config.AirtimeTopUp"/>
+        <method signature="AirtimeTopUp.AirtimeTopUp(java.util.Map)[pri:3, instance:restAssured.Config.AirtimeTopUp@27ae2fd0]" name="AirtimeTopUp" class="restAssured.Config.AirtimeTopUp"/>
+        <method signature="Loan_Services.SelectLoanService(java.util.Map)[pri:3, instance:restAssured.Config.Loan_Services@6973bf95]" name="SelectLoanService" class="restAssured.Config.Loan_Services"/>
+        <method signature="AirtimeTopUp.AirtimeReceiver(java.util.Map)[pri:4, instance:restAssured.Config.AirtimeTopUp@27ae2fd0]" name="AirtimeReceiver" class="restAssured.Config.AirtimeTopUp"/>
+        <method signature="Loan_Services.RepaymentOptions(java.util.Map)[pri:4, instance:restAssured.Config.Loan_Services@6973bf95]" name="RepaymentOptions" class="restAssured.Config.Loan_Services"/>
+        <method signature="AirtimeTopUp.AirtimeAmount(java.util.Map)[pri:5, instance:restAssured.Config.AirtimeTopUp@27ae2fd0]" name="AirtimeAmount" class="restAssured.Config.AirtimeTopUp"/>
+        <method signature="Loan_Services.EnterAmount(java.util.Map)[pri:5, instance:restAssured.Config.Loan_Services@6973bf95]" name="EnterAmount" class="restAssured.Config.Loan_Services"/>
+        <method signature="AirtimeTopUp.SelectPaymentWallet(java.util.Map)[pri:6, instance:restAssured.Config.AirtimeTopUp@27ae2fd0]" name="SelectPaymentWallet" class="restAssured.Config.AirtimeTopUp"/>
+        <method signature="Loan_Services.SelectPaymentWallet(java.util.Map)[pri:6, instance:restAssured.Config.Loan_Services@6973bf95]" name="SelectPaymentWallet" class="restAssured.Config.Loan_Services"/>
+        <method signature="AirtimeTopUp.ConfirmPayments(java.util.Map)[pri:7, instance:restAssured.Config.AirtimeTopUp@27ae2fd0]" name="ConfirmPayments" class="restAssured.Config.AirtimeTopUp"/>
+        <method signature="AirtimeTopUp.TerminateUSSD(java.util.Map)[pri:8, instance:restAssured.Config.AirtimeTopUp@27ae2fd0]" name="TerminateUSSD" class="restAssured.Config.AirtimeTopUp"/>
+        <method signature="Loan_Services.TerminateUSSD(java.util.Map)[pri:8, instance:restAssured.Config.Loan_Services@6973bf95]" name="TerminateUSSD" class="restAssured.Config.Loan_Services"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2023-10-30T18:16:14 GMT" name="USSD Tests" finished-at="2023-10-30T18:16:57 GMT" duration-ms="43958">
+      <class name="restAssured.Config.AirtimeTopUp">
+        <test-method is-config="true" signature="generate10DigitRandomNumber()[pri:0, instance:restAssured.Config.AirtimeTopUp@27ae2fd0]" started-at="2023-10-30T18:16:14 GMT" name="generate10DigitRandomNumber" finished-at="2023-10-30T18:16:14 GMT" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generate10DigitRandomNumber -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:restAssured.Config.AirtimeTopUp@27ae2fd0]" started-at="2023-10-30T18:16:14 GMT" name="setup" finished-at="2023-10-30T18:16:14 GMT" duration-ms="418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="_setup()[pri:0, instance:restAssured.Config.AirtimeTopUp@27ae2fd0]" started-at="2023-10-30T18:16:14 GMT" name="_setup" finished-at="2023-10-30T18:16:14 GMT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- _setup -->
+        <test-method signature="HomeScreen_Airtime(java.util.Map)[pri:1, instance:restAssured.Config.AirtimeTopUp@27ae2fd0]" started-at="2023-10-30T18:16:14 GMT" name="HomeScreen_Airtime" description="1" data-provider="Airtime" finished-at="2023-10-30T18:16:16 GMT" duration-ms="1681" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233540108519, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeScreen_Airtime -->
+        <test-method signature="HomeScreen_Airtime(java.util.Map)[pri:1, instance:restAssured.Config.AirtimeTopUp@27ae2fd0]" started-at="2023-10-30T18:16:16 GMT" name="HomeScreen_Airtime" description="1" data-provider="Airtime" finished-at="2023-10-30T18:16:16 GMT" duration-ms="568" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233548772115, Telco=02}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeScreen_Airtime -->
+        <test-method signature="EnterPin_Airtime(java.util.Map)[pri:2, instance:restAssured.Config.AirtimeTopUp@27ae2fd0]" started-at="2023-10-30T18:16:16 GMT" name="EnterPin_Airtime" data-provider="Airtime" finished-at="2023-10-30T18:16:17 GMT" duration-ms="293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233540108519, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterPin_Airtime -->
+        <test-method signature="EnterPin_Airtime(java.util.Map)[pri:2, instance:restAssured.Config.AirtimeTopUp@27ae2fd0]" started-at="2023-10-30T18:16:17 GMT" name="EnterPin_Airtime" data-provider="Airtime" finished-at="2023-10-30T18:16:17 GMT" duration-ms="314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233548772115, Telco=02}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterPin_Airtime -->
+        <test-method signature="AirtimeTopUp(java.util.Map)[pri:3, instance:restAssured.Config.AirtimeTopUp@27ae2fd0]" started-at="2023-10-30T18:16:17 GMT" name="AirtimeTopUp" data-provider="Airtime" finished-at="2023-10-30T18:16:21 GMT" duration-ms="3737" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233540108519, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AirtimeTopUp -->
+        <test-method signature="AirtimeTopUp(java.util.Map)[pri:3, instance:restAssured.Config.AirtimeTopUp@27ae2fd0]" started-at="2023-10-30T18:16:21 GMT" name="AirtimeTopUp" data-provider="Airtime" finished-at="2023-10-30T18:16:23 GMT" duration-ms="2475" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233548772115, Telco=02}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AirtimeTopUp -->
+        <test-method signature="AirtimeReceiver(java.util.Map)[pri:4, instance:restAssured.Config.AirtimeTopUp@27ae2fd0]" started-at="2023-10-30T18:16:23 GMT" name="AirtimeReceiver" data-provider="Airtime" finished-at="2023-10-30T18:16:24 GMT" duration-ms="496" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233540108519, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AirtimeReceiver -->
+        <test-method signature="AirtimeReceiver(java.util.Map)[pri:4, instance:restAssured.Config.AirtimeTopUp@27ae2fd0]" started-at="2023-10-30T18:16:24 GMT" name="AirtimeReceiver" data-provider="Airtime" finished-at="2023-10-30T18:16:24 GMT" duration-ms="378" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233548772115, Telco=02}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AirtimeReceiver -->
+        <test-method signature="AirtimeAmount(java.util.Map)[pri:5, instance:restAssured.Config.AirtimeTopUp@27ae2fd0]" started-at="2023-10-30T18:16:24 GMT" name="AirtimeAmount" data-provider="Airtime" finished-at="2023-10-30T18:16:24 GMT" duration-ms="318" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233540108519, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AirtimeAmount -->
+        <test-method signature="AirtimeAmount(java.util.Map)[pri:5, instance:restAssured.Config.AirtimeTopUp@27ae2fd0]" started-at="2023-10-30T18:16:24 GMT" name="AirtimeAmount" data-provider="Airtime" finished-at="2023-10-30T18:16:25 GMT" duration-ms="338" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233548772115, Telco=02}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AirtimeAmount -->
+        <test-method signature="SelectPaymentWallet(java.util.Map)[pri:6, instance:restAssured.Config.AirtimeTopUp@27ae2fd0]" started-at="2023-10-30T18:16:25 GMT" name="SelectPaymentWallet" data-provider="Airtime" finished-at="2023-10-30T18:16:25 GMT" duration-ms="308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233540108519, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectPaymentWallet -->
+        <test-method signature="SelectPaymentWallet(java.util.Map)[pri:6, instance:restAssured.Config.AirtimeTopUp@27ae2fd0]" started-at="2023-10-30T18:16:25 GMT" name="SelectPaymentWallet" data-provider="Airtime" finished-at="2023-10-30T18:16:25 GMT" duration-ms="298" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233548772115, Telco=02}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectPaymentWallet -->
+        <test-method signature="ConfirmPayments(java.util.Map)[pri:7, instance:restAssured.Config.AirtimeTopUp@27ae2fd0]" started-at="2023-10-30T18:16:25 GMT" name="ConfirmPayments" data-provider="Airtime" finished-at="2023-10-30T18:16:27 GMT" duration-ms="1658" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233540108519, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmPayments -->
+        <test-method signature="ConfirmPayments(java.util.Map)[pri:7, instance:restAssured.Config.AirtimeTopUp@27ae2fd0]" started-at="2023-10-30T18:16:27 GMT" name="ConfirmPayments" data-provider="Airtime" finished-at="2023-10-30T18:16:28 GMT" duration-ms="970" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233548772115, Telco=02}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmPayments -->
+        <test-method signature="TerminateUSSD(java.util.Map)[pri:8, instance:restAssured.Config.AirtimeTopUp@27ae2fd0]" started-at="2023-10-30T18:16:28 GMT" name="TerminateUSSD" data-provider="Airtime" finished-at="2023-10-30T18:16:28 GMT" duration-ms="455" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233540108519, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TerminateUSSD -->
+        <test-method signature="TerminateUSSD(java.util.Map)[pri:8, instance:restAssured.Config.AirtimeTopUp@27ae2fd0]" started-at="2023-10-30T18:16:28 GMT" name="TerminateUSSD" data-provider="Airtime" finished-at="2023-10-30T18:16:29 GMT" duration-ms="297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233548772115, Telco=02}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TerminateUSSD -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:restAssured.Config.AirtimeTopUp@27ae2fd0]" started-at="2023-10-30T18:16:29 GMT" name="cleanup" finished-at="2023-10-30T18:16:29 GMT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- restAssured.Config.AirtimeTopUp -->
+      <class name="restAssured.Config.Loan_Services">
+        <test-method is-config="true" signature="generate10DigitRandomNumber()[pri:0, instance:restAssured.Config.Loan_Services@6973bf95]" started-at="2023-10-30T18:16:29 GMT" name="generate10DigitRandomNumber" finished-at="2023-10-30T18:16:29 GMT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generate10DigitRandomNumber -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:restAssured.Config.Loan_Services@6973bf95]" started-at="2023-10-30T18:16:29 GMT" name="setup" finished-at="2023-10-30T18:16:29 GMT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="_setup()[pri:0, instance:restAssured.Config.Loan_Services@6973bf95]" started-at="2023-10-30T18:16:29 GMT" name="_setup" finished-at="2023-10-30T18:16:29 GMT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- _setup -->
+        <test-method signature="HomeScreen(java.util.Map)[pri:1, instance:restAssured.Config.Loan_Services@6973bf95]" started-at="2023-10-30T18:16:29 GMT" name="HomeScreen" description="1" data-provider="TestData" finished-at="2023-10-30T18:16:29 GMT" duration-ms="524" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233540108519, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeScreen -->
+        <test-method signature="HomeScreen(java.util.Map)[pri:1, instance:restAssured.Config.Loan_Services@6973bf95]" started-at="2023-10-30T18:16:29 GMT" name="HomeScreen" description="1" data-provider="TestData" finished-at="2023-10-30T18:16:30 GMT" duration-ms="554" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233236648852, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeScreen -->
+        <test-method signature="HomeScreen(java.util.Map)[pri:1, instance:restAssured.Config.Loan_Services@6973bf95]" started-at="2023-10-30T18:16:30 GMT" name="HomeScreen" description="1" data-provider="TestData" finished-at="2023-10-30T18:16:30 GMT" duration-ms="505" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233245880771, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeScreen -->
+        <test-method signature="HomeScreen(java.util.Map)[pri:1, instance:restAssured.Config.Loan_Services@6973bf95]" started-at="2023-10-30T18:16:30 GMT" name="HomeScreen" description="1" data-provider="TestData" finished-at="2023-10-30T18:16:31 GMT" duration-ms="559" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233246331221, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeScreen -->
+        <test-method signature="EnterPin(java.util.Map)[pri:2, instance:restAssured.Config.Loan_Services@6973bf95]" started-at="2023-10-30T18:16:31 GMT" name="EnterPin" data-provider="TestData" finished-at="2023-10-30T18:16:31 GMT" depends-on-methods="restAssured.Config.Loan_Services.HomeScreen" duration-ms="269" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233540108519, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterPin -->
+        <test-method signature="EnterPin(java.util.Map)[pri:2, instance:restAssured.Config.Loan_Services@6973bf95]" started-at="2023-10-30T18:16:31 GMT" name="EnterPin" data-provider="TestData" finished-at="2023-10-30T18:16:31 GMT" depends-on-methods="restAssured.Config.Loan_Services.HomeScreen" duration-ms="301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233236648852, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterPin -->
+        <test-method signature="EnterPin(java.util.Map)[pri:2, instance:restAssured.Config.Loan_Services@6973bf95]" started-at="2023-10-30T18:16:31 GMT" name="EnterPin" data-provider="TestData" finished-at="2023-10-30T18:16:32 GMT" depends-on-methods="restAssured.Config.Loan_Services.HomeScreen" duration-ms="287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233245880771, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterPin -->
+        <test-method signature="EnterPin(java.util.Map)[pri:2, instance:restAssured.Config.Loan_Services@6973bf95]" started-at="2023-10-30T18:16:32 GMT" name="EnterPin" data-provider="TestData" finished-at="2023-10-30T18:16:32 GMT" depends-on-methods="restAssured.Config.Loan_Services.HomeScreen" duration-ms="286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233246331221, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterPin -->
+        <test-method signature="SelectLoanService(java.util.Map)[pri:3, instance:restAssured.Config.Loan_Services@6973bf95]" started-at="2023-10-30T18:16:32 GMT" name="SelectLoanService" data-provider="TestData" finished-at="2023-10-30T18:16:35 GMT" duration-ms="3345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233540108519, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectLoanService -->
+        <test-method signature="SelectLoanService(java.util.Map)[pri:3, instance:restAssured.Config.Loan_Services@6973bf95]" started-at="2023-10-30T18:16:35 GMT" name="SelectLoanService" data-provider="TestData" finished-at="2023-10-30T18:16:37 GMT" duration-ms="2005" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233236648852, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectLoanService -->
+        <test-method signature="SelectLoanService(java.util.Map)[pri:3, instance:restAssured.Config.Loan_Services@6973bf95]" started-at="2023-10-30T18:16:37 GMT" name="SelectLoanService" data-provider="TestData" finished-at="2023-10-30T18:16:39 GMT" duration-ms="1838" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233245880771, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectLoanService -->
+        <test-method signature="SelectLoanService(java.util.Map)[pri:3, instance:restAssured.Config.Loan_Services@6973bf95]" started-at="2023-10-30T18:16:39 GMT" name="SelectLoanService" data-provider="TestData" finished-at="2023-10-30T18:16:41 GMT" duration-ms="1859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233246331221, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectLoanService -->
+        <test-method signature="RepaymentOptions(java.util.Map)[pri:4, instance:restAssured.Config.Loan_Services@6973bf95]" started-at="2023-10-30T18:16:41 GMT" name="RepaymentOptions" data-provider="TestData" finished-at="2023-10-30T18:16:45 GMT" duration-ms="3960" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233540108519, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RepaymentOptions -->
+        <test-method signature="RepaymentOptions(java.util.Map)[pri:4, instance:restAssured.Config.Loan_Services@6973bf95]" started-at="2023-10-30T18:16:45 GMT" name="RepaymentOptions" data-provider="TestData" finished-at="2023-10-30T18:16:47 GMT" duration-ms="1652" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233236648852, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RepaymentOptions -->
+        <test-method signature="RepaymentOptions(java.util.Map)[pri:4, instance:restAssured.Config.Loan_Services@6973bf95]" started-at="2023-10-30T18:16:47 GMT" name="RepaymentOptions" data-provider="TestData" finished-at="2023-10-30T18:16:48 GMT" duration-ms="1448" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233245880771, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RepaymentOptions -->
+        <test-method signature="RepaymentOptions(java.util.Map)[pri:4, instance:restAssured.Config.Loan_Services@6973bf95]" started-at="2023-10-30T18:16:48 GMT" name="RepaymentOptions" data-provider="TestData" finished-at="2023-10-30T18:16:50 GMT" duration-ms="1684" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233246331221, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RepaymentOptions -->
+        <test-method signature="EnterAmount(java.util.Map)[pri:5, instance:restAssured.Config.Loan_Services@6973bf95]" started-at="2023-10-30T18:16:50 GMT" name="EnterAmount" data-provider="TestData" finished-at="2023-10-30T18:16:50 GMT" duration-ms="274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233540108519, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterAmount -->
+        <test-method signature="EnterAmount(java.util.Map)[pri:5, instance:restAssured.Config.Loan_Services@6973bf95]" started-at="2023-10-30T18:16:50 GMT" name="EnterAmount" data-provider="TestData" finished-at="2023-10-30T18:16:50 GMT" duration-ms="296" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233236648852, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterAmount -->
+        <test-method signature="EnterAmount(java.util.Map)[pri:5, instance:restAssured.Config.Loan_Services@6973bf95]" started-at="2023-10-30T18:16:50 GMT" name="EnterAmount" data-provider="TestData" finished-at="2023-10-30T18:16:51 GMT" duration-ms="298" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233245880771, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterAmount -->
+        <test-method signature="EnterAmount(java.util.Map)[pri:5, instance:restAssured.Config.Loan_Services@6973bf95]" started-at="2023-10-30T18:16:51 GMT" name="EnterAmount" data-provider="TestData" finished-at="2023-10-30T18:16:51 GMT" duration-ms="306" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233246331221, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterAmount -->
+        <test-method signature="SelectPaymentWallet(java.util.Map)[pri:6, instance:restAssured.Config.Loan_Services@6973bf95]" started-at="2023-10-30T18:16:51 GMT" name="SelectPaymentWallet" data-provider="TestData" finished-at="2023-10-30T18:16:51 GMT" duration-ms="425" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233540108519, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectPaymentWallet -->
+        <test-method signature="SelectPaymentWallet(java.util.Map)[pri:6, instance:restAssured.Config.Loan_Services@6973bf95]" started-at="2023-10-30T18:16:51 GMT" name="SelectPaymentWallet" data-provider="TestData" finished-at="2023-10-30T18:16:52 GMT" duration-ms="272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233236648852, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectPaymentWallet -->
+        <test-method signature="SelectPaymentWallet(java.util.Map)[pri:6, instance:restAssured.Config.Loan_Services@6973bf95]" started-at="2023-10-30T18:16:52 GMT" name="SelectPaymentWallet" data-provider="TestData" finished-at="2023-10-30T18:16:52 GMT" duration-ms="322" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233245880771, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectPaymentWallet -->
+        <test-method signature="SelectPaymentWallet(java.util.Map)[pri:6, instance:restAssured.Config.Loan_Services@6973bf95]" started-at="2023-10-30T18:16:52 GMT" name="SelectPaymentWallet" data-provider="TestData" finished-at="2023-10-30T18:16:52 GMT" duration-ms="301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233246331221, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectPaymentWallet -->
+        <test-method signature="ConfirmPayments(java.util.Map)[pri:7, instance:restAssured.Config.Loan_Services@6973bf95]" started-at="2023-10-30T18:16:52 GMT" name="ConfirmPayments" data-provider="TestData" finished-at="2023-10-30T18:16:54 GMT" duration-ms="1573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233540108519, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmPayments -->
+        <test-method signature="ConfirmPayments(java.util.Map)[pri:7, instance:restAssured.Config.Loan_Services@6973bf95]" started-at="2023-10-30T18:16:54 GMT" name="ConfirmPayments" data-provider="TestData" finished-at="2023-10-30T18:16:55 GMT" duration-ms="1001" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233236648852, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmPayments -->
+        <test-method signature="ConfirmPayments(java.util.Map)[pri:7, instance:restAssured.Config.Loan_Services@6973bf95]" started-at="2023-10-30T18:16:55 GMT" name="ConfirmPayments" data-provider="TestData" finished-at="2023-10-30T18:16:56 GMT" duration-ms="812" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233245880771, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmPayments -->
+        <test-method signature="ConfirmPayments(java.util.Map)[pri:7, instance:restAssured.Config.Loan_Services@6973bf95]" started-at="2023-10-30T18:16:56 GMT" name="ConfirmPayments" data-provider="TestData" finished-at="2023-10-30T18:16:56 GMT" duration-ms="840" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233246331221, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmPayments -->
+        <test-method signature="TerminateUSSD(java.util.Map)[pri:8, instance:restAssured.Config.Loan_Services@6973bf95]" started-at="2023-10-30T18:16:56 GMT" name="TerminateUSSD" data-provider="TestData" finished-at="2023-10-30T18:16:57 GMT" duration-ms="249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233540108519, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TerminateUSSD -->
+        <test-method signature="TerminateUSSD(java.util.Map)[pri:8, instance:restAssured.Config.Loan_Services@6973bf95]" started-at="2023-10-30T18:16:57 GMT" name="TerminateUSSD" data-provider="TestData" finished-at="2023-10-30T18:16:57 GMT" duration-ms="261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233236648852, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TerminateUSSD -->
+        <test-method signature="TerminateUSSD(java.util.Map)[pri:8, instance:restAssured.Config.Loan_Services@6973bf95]" started-at="2023-10-30T18:16:57 GMT" name="TerminateUSSD" data-provider="TestData" finished-at="2023-10-30T18:16:57 GMT" duration-ms="256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233245880771, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TerminateUSSD -->
+        <test-method signature="TerminateUSSD(java.util.Map)[pri:8, instance:restAssured.Config.Loan_Services@6973bf95]" started-at="2023-10-30T18:16:57 GMT" name="TerminateUSSD" data-provider="TestData" finished-at="2023-10-30T18:16:57 GMT" duration-ms="247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{generatepincode=7755, PaymentAmount=1, phoneNumber=+233246331221, Telco=06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TerminateUSSD -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:restAssured.Config.Loan_Services@6973bf95]" started-at="2023-10-30T18:16:57 GMT" name="cleanup" finished-at="2023-10-30T18:16:57 GMT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- restAssured.Config.Loan_Services -->
+    </test> <!-- USSD Tests -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

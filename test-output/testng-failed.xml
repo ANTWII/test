@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="restAssured.Config.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="USSD Tests(failed)">
+    <classes>
+      <class name="restAssured.Config.Loan_Services">
+        <methods>
+          <include name="RepaymentOptions" invocation-numbers="1"/>
+          <include name="SelectPaymentWallet" invocation-numbers="1"/>
+          <include name="ConfirmPayments" invocation-numbers="1"/>
+          <include name="generate10DigitRandomNumber"/>
+          <include name="setup"/>
+          <include name="_setup"/>
+          <include name="cleanup"/>
+          <include name="EnterAmount" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- restAssured.Config.Loan_Services -->
+    </classes>
+  </test> <!-- USSD Tests(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
